@@ -6,7 +6,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #fff;
+    background:#f2f2f2;
+}
+
+h1, h2{
+    margin: 0 0 0 0;
 }
 
 /*Styling for the side navigation*/
@@ -69,12 +73,33 @@ body {
     text-decoration: none;
 }
 
-.topbar h1{
-    padding-top: 30px;
-    padding-left: 20px;
-    margin-top: 0;
-    display: block;
-    color: white;
+.loggedin{
+    display:flex;
+    justify-content:space-between;
+    height:150px;
+    width:350px;
+}
+
+#username{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:150px;
+    width:60%;
+    color: #fff;
+    padding-right: 20px;
+}
+
+#logout{
+    display:flex;
+    height:150px;
+    width:30%;
+    align-items: center;
+}
+
+#logout img{
+    height:50px;
+    width:auto;
 }
 
 #logo{
@@ -87,7 +112,6 @@ body {
 main{
     margin-left: 15%;
     height: 700px;
-    background:#f2f2f2;
 }
 
 /*styling for the footer*/
@@ -98,4 +122,67 @@ footer{
     color:#fff;
 }
 
+/*styling for the weight tracker page*/
+.goalselect{
+    display:flex;
+    justify-content:space-around;
+    height:250px;
+    width:70%;
+    margin-left:13%;
+}
 
+#select{
+    text-decoration:underline;
+}
+
+.goalselect figure{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    margin: 0 0 0 0;
+    flex-direction:column;
+    text-align:center;
+}
+
+.goalselect figure img{
+    height: 200px;
+    width:auto;
+}
+
+.goalselect figure img:hover{
+    margin-bottom: 10px;
+}
+
+#pagetitle{
+    text-align:center;
+    height:100px;
+    width: 100%;
+}
+
+.container{
+    height: 100px;
+    width: 100%;
+    text-align:center;
+}
+
+/*styling for the gain muscle page*/
+.formcontainer{
+    height:200px;
+    width:30%;
+}
+
+.formcontainer button{
+    float:right;
+    padding: 5px 5px 5px 5px;
+}
+
+.formcontainer form table tr td{
+    padding-bottom:20px;
+}
+
+/*styling for the moderate lvl page*/
+#caloriegoal{
+    margin:auto;
+    height: 200px;
+    width: 400px;
+}

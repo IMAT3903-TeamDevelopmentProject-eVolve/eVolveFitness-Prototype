@@ -17,6 +17,14 @@
     <header>
         <div class="topbar">
             <a href="Default.aspx"><img id="logo" src="img/logo.png" alt="logo" /></a>
+            <div class="loggedin">
+                <div id="username">
+                    <h2>Username</h2>
+                </div>
+                <div id="logout">
+                    <a href="loggedout.aspx"><img src="img/exit.svg" alt="logout"/></a>
+                </div>
+            </div>
         </div>
         <nav class="sidenav">
             <h2>Dashboard</h2>
