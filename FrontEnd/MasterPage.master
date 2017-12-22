@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <!-- charser id-->
+	<meta charset="utf-8"/>
+    <!-- View Port ID for responsive design-->
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--Style Sheet-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+<body>
+    <header>
+        <div class="topbar">
+            <a href="Default.aspx"><img id="logo" src="img/logo.png" alt="logo" /></a>
+        </div>
+        <nav class="sidenav">
+            <h2>Dashboard</h2>
+            <ul>
+                <li><a href="ClientHub.aspx"><img src="img/home.svg" alt="home"/>ClientHub</a></li>
+                <li><a href="Workouts.aspx"><img src="img/workout.svg" alt="workouts"/>Workouts</a></li>
+                <li><a href="Nutrition.aspx"><img src="img/nutrition.svg" alt="nutrition"/>Nutrition</a></li>
+                <li><a href="WeightTracker.aspx"><img src="img/scale.svg" alt="scales"/>Weight Tracker</a></li>
+                <li><a href="CalorieTracker.aspx"><img src="img/calories.svg" alt="calories"/>Calorie Tracker</a></li>
+                <li><a href="Reviews.aspx"><img src="img/review.svg" alt="reviews"/>Reviews</a></li>
+                <li><a href="Contact.aspx"><img src="img/contact.svg" alt="contact"/>Contact PT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    </main>
+    <footer>
+        <small>Reuben Porter 2017</small>
+    </footer>
+</body>
+</html>

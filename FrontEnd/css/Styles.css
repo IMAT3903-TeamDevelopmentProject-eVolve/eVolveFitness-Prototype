@@ -1,0 +1,101 @@
+﻿/* Google Fonts link */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+/*Styling for the side navigation*/
+.sidenav{
+    display:block;
+    width:15%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    top:150px;
+    height:700px;
+    background: #414141;
+    margin-left:0;
+}
+
+.sidenav ul{
+    padding-left:25px;
+    margin:auto;
+}
+
+.sidenav ul li{
+    list-style:none;
+}
+
+.sidenav a {
+    padding-top:40px;
+    text-decoration: none;
+    font-size: 1.25em;
+    color: #fff;
+    display: block;
+}
+
+.sidenav h2{
+    color: #fff;
+    text-decoration:underline;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.sidenav a:hover {
+    color: #97FD43;
+}
+
+.sidenav img{
+    height:30px;
+    width:auto;
+    padding-right:15px;
+}
+
+/*Styling for the top bar*/
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    background: #1E1E1E;
+}
+
+.topbar a{
+    text-decoration: none;
+}
+
+.topbar h1{
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-top: 0;
+    display: block;
+    color: white;
+}
+
+#logo{
+    height:140px;
+    width:auto;
+    padding-left:20px;
+}
+
+/*styling for main content*/
+main{
+    margin-left: 15%;
+    height: 700px;
+    background:#f2f2f2;
+}
+
+/*styling for the footer*/
+footer{
+    height: 100px;
+    text-align: center;
+    background: #1E1E1E;
+    color:#fff;
+}
+
+
